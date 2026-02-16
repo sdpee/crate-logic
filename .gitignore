@@ -12,3 +12,6 @@ __pycache__/
 # OS / editor
 .DS_Store
 .vscode/
+
+discogs_releases.json
+mapping_*.json
