@@ -13,5 +13,7 @@ __pycache__/
 .DS_Store
 .vscode/
 
+# Discogs cache / personal data
 discogs_releases.json
+cache/
 mapping_*.json

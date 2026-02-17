@@ -14,9 +14,9 @@ def main():
         user_agent="CrateLogic/0.1 +https://example.com"
     )
 
-    data = build_release_index(client, username=username, folder_id=0, limit=10)
-    save_release_index(data)
-    print(f"Saved {len(data['releases'])} releases (of {data['count']} in collection) to discogs_releases.json")
+data = build_release_index_all(client, username=username, folder_id=0)
+save_release_index(data)
+print(f"Saved {len(data['releases'])} releases (of {data['count']}) to discogs_releases.json")
 
 if __name__ == "__main__":
     main()
